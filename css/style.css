@@ -1,11 +1,3 @@
-/*
-
-Known Template 
-
-https://templatemo.com/tm-516-known
-
-*/
-
   @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
 
   body {
@@ -42,6 +34,7 @@ https://templatemo.com/tm-516-known
     font-size: 1.5em;
     margin-bottom: 0;
   }
+
 
   h3,
   h3 a {
@@ -80,7 +73,7 @@ https://templatemo.com/tm-516-known
   }
 
   a:hover, a:active, a:focus {
-    color: #29ca8e;
+    color: #2B90CF;
     outline: none;
   }
 
@@ -344,7 +337,7 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
-    background: #252525;
+    background: #2B90CF;
     border-color: transparent;
   }
 
@@ -383,7 +376,7 @@ https://templatemo.com/tm-516-known
 
 
   .home-slider .item-first {
-    background-image: url(../images/doctors_three.jpg);
+    background-image: url(../images/main.jpg);
 	  background-position: center;
     height: 700px;
   }
@@ -402,7 +395,7 @@ https://templatemo.com/tm-516-known
   .feature-thumb span {
     background: #2B90CF;
     border-radius: 50px;
-    color: #ffffff;
+    color: white;
     font-size: 25px;
     font-weight: bold;
     display: inline-block;
@@ -420,7 +413,7 @@ https://templatemo.com/tm-516-known
 
 
   /*---------------------------------------
-      ABOUT              
+      DOWNLOAD             
   -----------------------------------------*/
 
   #download figure {
@@ -448,10 +441,23 @@ https://templatemo.com/tm-516-known
     text-align: center;
   }
 
+.download-bg{
+  background-color: #29293A;
+} 
+
+#download h2{
+  color:white;
+}
+#download h3{
+  color:#B3E5FC;
+}
+#download p{
+  color:#F7F3E9;
+}
 
 
   /*---------------------------------------
-      TEAM              
+      DOCTORS           
   -----------------------------------------*/
 
   .doctor-thumb {
@@ -485,7 +491,7 @@ https://templatemo.com/tm-516-known
 
 
   /*---------------------------------------
-      COURSES             
+    HOSPITAL             
   -----------------------------------------*/
 
   #hospital .section-title {
@@ -506,25 +512,12 @@ https://templatemo.com/tm-516-known
     padding: 0;
   }
 
-  .hospital-thumb {
-    background: #F7F3E9;
-    position: relative;
-  }
-
   .hospital-top {
     position: relative;
   }
 
   .hospital-image {
     background: linear-gradient(to right, #202020, #101010);
-  }
-
-  .hospital-date {
-    background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.6));
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding: 20px 25px;
   }
 
   .hospital-date span,
@@ -568,10 +561,6 @@ https://templatemo.com/tm-516-known
     margin-right: 10px;
   }
 
-  .hospital-price {
-    float: right;
-    margin-top: 10px;
-  }
 
   .hospital-price span {
     background: #29293A;
@@ -583,35 +572,6 @@ https://templatemo.com/tm-516-known
 
   .hospital-price.free span {
     background: #29293A;
-  }
-
-
-
-  /*---------------------------------------
-     NEWS              
-  -----------------------------------------*/
-
-  .news-thumb {
-    clear: both;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
-
-  .news-thumb .news-image {
-    float: left;
-    width: 40%;
-    margin-right: 30px;
-  }
-
-  .news-info h3 {
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-
-  .news-date span {
-    color: #909090;
-    font-weight: bold;
   }
 
 
@@ -643,7 +603,7 @@ https://templatemo.com/tm-516-known
   }
 
   .tst-rating .fa {
-    color: #29293A;
+    color: #ECC15C;
   }
 
   .tst-image,
@@ -666,7 +626,7 @@ https://templatemo.com/tm-516-known
   }
 
   .tst-author span {
-    color: #808080;
+    color: #2B90CF;
     font-size: 14px;
   }
 
@@ -786,6 +746,33 @@ https://templatemo.com/tm-516-known
     margin: 5px 10px 5px 0;
   }
 
+  /*---------------------------------------
+     NEWS              
+  -----------------------------------------*/
+
+  .news-thumb {
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+
+  .news-thumb .news-image {
+    float: left;
+    width: 40%;
+    margin-right: 30px;
+  }
+
+  .news-info h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .news-date span {
+    color: #909090;
+    font-weight: bold;
+  }
+
   .newsletter-form .form-control {
     background: transparent;
     border-radius: 0;
@@ -820,7 +807,6 @@ https://templatemo.com/tm-516-known
   }
 
 
-
   /*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/
@@ -839,7 +825,7 @@ https://templatemo.com/tm-516-known
 
   .social-icon li a {
     border-radius: 100px;
-    color: #29293A;
+    color: #2B90CF;
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -933,7 +919,7 @@ https://templatemo.com/tm-516-known
 
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {
-      color: #575757;
+      color: #2B90CF;
     }
 
     .custom-navbar .navbar-nav.navbar-right li {
