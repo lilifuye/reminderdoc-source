@@ -1,5 +1,4 @@
-  @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
-
+  
   body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -54,9 +53,6 @@
      GENERAL               
   -----------------------------------------*/
 
-  html{
-    -webkit-font-smoothing: antialiased;
-  }
 
   a {
     color: #252525;
@@ -382,13 +378,15 @@
     color: #fff;
   }
 
-
-  .home-slider .item-first {
+  #home{
     background-image: url(../images/main.jpg);
-	  background-position: center;
+    background-position: center;
     height: 700px;
   }
 
+  .text-home{
+    padding-top:15%;
+  }
 
 
   /*---------------------------------------
@@ -912,10 +910,6 @@
     section,
     footer {
       padding: 60px 0;
-    }
-
-    .home-slider .item {
-      background-position: center center;
     }
 
     .feature-thumb,
