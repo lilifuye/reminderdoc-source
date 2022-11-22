@@ -1,5 +1,4 @@
-  @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
-
+  
   body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -54,9 +53,6 @@
      GENERAL               
   -----------------------------------------*/
 
-  html{
-    -webkit-font-smoothing: antialiased;
-  }
 
   a {
     color: #252525;
@@ -345,7 +341,7 @@
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
-    background: #2B90CF;
+    background: #29293A;
     border-color: transparent;
   }
 
@@ -382,13 +378,18 @@
     color: #fff;
   }
 
-
-  .home-slider .item-first {
+  #home{
     background-image: url(../images/main.jpg);
-	  background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
     height: 700px;
   }
 
+  .text-home{
+    padding-top:15%;
+  }
 
 
   /*---------------------------------------
@@ -481,6 +482,7 @@
 
   .doctor-image img {
     width: 100%;
+
   }
 
   .doctor-thumb .social-icon {
@@ -898,6 +900,7 @@
 
 
 
+
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
@@ -919,8 +922,8 @@
     }
 
     .feature-thumb,
-    .download-info,
-    .doctor-thumb,
+    .about-info,
+    .team-thumb,
     .footer-info {
       margin-bottom: 50px;
     }
@@ -973,7 +976,7 @@
 
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {
-      color: #2B90CF;
+      color: #575757;
     }
 
     .custom-navbar .navbar-nav.navbar-right li {
@@ -1027,4 +1030,5 @@
       height: inherit;
     }
   }
+  
   

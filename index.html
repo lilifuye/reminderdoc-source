@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-     <!-- Reminder Doc Landing Page -->
+
      <title>Reminder Doc</title>
 
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
      <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -40,14 +37,17 @@
 
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-nav-first navbar-right">
+                    <ul class="nav navbar-nav navbar-nav-first">
                          <li><a href="#top">Home</a></li>
                          <li><a href="#download">Descargas</a></li>
-                         <li><a href="#doctor">Doctores</a></li>
-                         <li><a href="#hospital">Hospitales</a></li>
+                         <li><a href="#doctor">Equipo</a></li>
                          <li><a href="#testimonial">Testimonios</a></li>
                          <li><a href="#plan">Planes</a></li>
                          <li><a href="#contact">Contacto</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#download"><i class="fa fa-download"></i>Descarga ahora</a></li>
                     </ul>
                </div>
 
@@ -57,15 +57,13 @@
 
      <!-- HOME -->
      <section id="home">
-          <div class="owl-carousel owl-theme home-slider">
-               <div class="item item-first">
-                    <div class="caption">
-                         <div class="container">
-                              <div class="col-md-7">
-                                   <h1>Siempre juntos por tu salud</h1>
-                                   <h3>Reminder Doc es una aplicación de recordatorio de medicamentos y soluciones tecnológicas para clínicas y hospitales. Nuestro propósito es asegurar que todos los pacientes que sigan algún tipo de tratamiento, puedan cumplir satisfactoriamente con todas las indicaciones que el médico les asigne.</h3>
-                                   <a href="#download" class="section-btn btn btn-default smoothScroll">Descarga Reminder Doc</a>
-                              </div>
+          <div class="item item-first">
+               <div class="caption">
+                    <div class="container">
+                         <div class="col-md-7 text-home">
+                              <h1>Siempre juntos por tu salud</h1>
+                              <h3>Reminder Doc es una aplicación de recordatorio de medicamentos y soluciones tecnológicas para clínicas y hospitales. Nuestro propósito es asegurar que todos los pacientes que sigan algún tipo de tratamiento, puedan cumplir satisfactoriamente con todas las indicaciones que el médico les asigne.</h3>
+                              <a href="#download" class="section-btn btn btn-default smoothScroll">Descarga Reminder Doc</a>
                          </div>
                     </div>
                </div>
@@ -82,7 +80,7 @@
                               <span>01</span>
                               <h3>Recordatorio de medicamentos</h3>
                               <p>Configura turecordatorios médicos, citas médicas en distintas plataformas; y seguimiento de tratamientos con tus doctores de confianza.</p>
-                              <a href="#">Ver más</a>
+                              <a href="#feature">Ver más</a>
                          </div>
                     </div>
 
@@ -91,7 +89,7 @@
                               <span>02</span>
                               <h3>Conexión con hospitales afiliados</h3>
                               <p>Administra tranquilamente todo tu tratamiento de manera práctica. Contamos con hospitales afiliados para ofrecerte la mejor atención.</p>
-                              <a href="#">Ver más</a>
+                              <a href="#feature">Ver más</a>
                          </div>
                     </div>
 
@@ -100,7 +98,7 @@
                               <span>03</span>
                               <h3>Reminder Shop</h3>
                               <p>Despreocúpate en conseguir medicamentos al mejor precio. Contamos con una plataforma de compra de medicamentos con tus farmacias favoritas. Estes donde estes te lo llevamos a tu hogar.</p>
-                              <a href="#">Ver más</a>
+                              <a href="#feature">Ver más</a>
                          </div>
                     </div>
 
@@ -169,77 +167,77 @@
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                         <div class="team-thumb">
-                              <div class="team-image">
+                         <div class="doctor-thumb">
+                              <div class="doctor-image">
                                    <img src="images/doctor1.jpg" class="img-responsive" alt="">
                               </div>
-                              <div class="team-info">
+                              <div class="doctor-info">
                                    <h3>Javier Pinedo Arévalo</h3>
                                    <span>Cirujano Pediátrico</span>
                                    <br>
                                    <small>Hospital Nacional Cayetano Heredia</small>
                               </div>
                               <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-info-circle"></a></li>
-                                   <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                   <li><a href="#" class="fa fa-link"></a></li>
+                                   <li><a href="#doctor" class="fa fa-info-circle"></a></li>
+                                   <li><a href="#doctor" class="fa fa-envelope-o"></a></li>
+                                   <li><a href="#doctor" class="fa fa-link"></a></li>
                               </ul>
                          </div>
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                         <div class="team-thumb">
-                              <div class="team-image">
+                         <div class="doctor-thumb">
+                              <div class="doctor-image">
                                    <img src="images/doctor2.jpg" class="img-responsive" alt="">
                               </div>
-                              <div class="team-info">
+                              <div class="doctor-info">
                                    <h3>Lucía Merino Sánchez</h3>
                                    <span>Odontología</span>
                                    <br>
                                    <small>Hospital Santa Rosa</small>
                               </div>
                               <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-info-circle"></a></li>
-                                   <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                   <li><a href="#" class="fa fa-link"></a></li>
+                                   <li><a href="#doctor" class="fa fa-info-circle"></a></li>
+                                   <li><a href="#doctor" class="fa fa-envelope-o"></a></li>
+                                   <li><a href="#doctor" class="fa fa-link"></a></li>
                               </ul>
                          </div>
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                         <div class="team-thumb">
-                              <div class="team-image">
+                         <div class="doctor-thumb">
+                              <div class="doctor-image">
                                    <img src="images/doctor3.jpg" class="img-responsive" alt="">
                               </div>
-                              <div class="team-info">
-                                   <h3>Carlos Smith</h3>
+                              <div class="doctor-info">
+                                   <h3>Carlos Smith Vasquez</h3>
                                    <span>Medicina General</span>
                                    <br>
                                    <small>Clínica Internacional San Isidro</small>
                               </div>
                               <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-info-circle"></a></li>
-                                   <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                   <li><a href="#" class="fa fa-link"></a></li>
+                                   <li><a href="#doctor" class="fa fa-info-circle"></a></li>
+                                   <li><a href="#doctor" class="fa fa-envelope-o"></a></li>
+                                   <li><a href="#doctor" class="fa fa-link"></a></li>
                               </ul>
                          </div>
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                         <div class="team-thumb">
-                              <div class="team-image">
+                         <div class="doctor-thumb">
+                              <div class="doctor-image">
                                    <img src="images/doctor4.jpg" class="img-responsive" alt="">
                               </div>
-                              <div class="team-info">
-                                   <h3>Carmen Sifuentes</h3>
+                              <div class="doctor-info">
+                                   <h3>Carmen Sifuentes Arana</h3>
                                    <span>Pediatría</span>
                                    <br>
                                    <small>Clínica San Felipe</small>
                               </div>
                               <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-info-circle"></a></li>
-                                   <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                   <li><a href="#" class="fa fa-link"></a></li>
+                                   <li><a href="#doctor" class="fa fa-info-circle"></a></li>
+                                   <li><a href="#doctor" class="fa fa-envelope-o"></a></li>
+                                   <li><a href="#doctor" class="fa fa-link"></a></li>
                               </ul>
                          </div>
                     </div>
@@ -270,7 +268,7 @@
                                              </div>
 
                                              <div class="hospital-detail">
-                                                  <h3><a href="#">Hospital Arzobispo Loayza</a></h3>
+                                                  <h3><a href="#hospital">Hospital Arzobispo Loayza</a></h3>
                                                   <p>Av. Alfonso Ugarte 848, Lima 15082</p>
                                              </div>
                                         </div>
@@ -287,7 +285,7 @@
                                         </div>
 
                                         <div class="hospital-detail">
-                                             <h3><a href="#">Hospital Dos de Mayo</a></h3>
+                                             <h3><a href="#hospital">Hospital Dos de Mayo</a></h3>
                                              <p>Av. Miguel Grau 13, Lima 15003</p>
                                         </div>
                                    </div>
@@ -304,7 +302,7 @@
                                         </div>
 
                                         <div class="hospital-detail">
-                                             <h3><a href="#">Clínica San Felipe</a></h3>
+                                             <h3><a href="#hospital">Clínica San Felipe</a></h3>
                                              <p>Av. Gregorio Escobedo 650, Jesús María 15072</p>
                                         </div>
                                    </div>
@@ -321,8 +319,8 @@
                                         </div>
 
                                         <div class="hospital-detail">
-                                             <h3><a href="#">Clínica Internacional</a></h3>
-                                             <p>Av. Inca Garcilaso de la Vega 1420, Lima 15001.</p>
+                                             <h3><a href="#hospital">Clínica Internacional</a></h3>
+                                             <p>Av. Inca Garcilaso de la Vega 1420, Lima 15001</p>
                                         </div>
                                    </div>
                               </div>
@@ -338,13 +336,12 @@
                                         </div>
 
                                         <div class="hospital-detail">
-                                             <h3><a href="#">Hospital Edgardo Rebagliati</a></h3>
+                                             <h3><a href="#hospital">Hospital Edgardo Rebagliati</a></h3>
                                              <p>Av. Edgardo Rebagliati 490, Jesús María 15072</p>
                                         </div>
                                    </div>
                               </div>
                          </div>
-
                     </div>
                          
 
@@ -611,10 +608,10 @@
                               </address>
 
                               <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                   <li><a href="#" class="fa fa-twitter"></a></li>
-                                   <li><a href="#" class="fa fa-instagram"></a></li>
-                                   <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   <li><a href="#footer" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="#footer" class="fa fa-twitter"></a></li>
+                                   <li><a href="#footer" class="fa fa-instagram"></a></li>
+                                   <li><a href="#footer" class="fa fa-linkedin"></a></li>
                               </ul>
 
                               <div class="copyright-text"> 
@@ -632,19 +629,19 @@
                               </div>
                               <address>
                                    <p></p>
-                                   <p><a href="https://github.com/lilifuye/reminderdoc-source.git">Repositorio de Reminder Doc</a></p>
+                                   <p><a href="https://github.com/lilifuye/reminderdoc-source.git" target="_blank">Repositorio de Reminder Doc</a></p>
                               </address>
 
                               <div class="footer_menu">
                                    <h2>Acessos</h2>
                                    <ul>
-                                        <li><a href="#">Descargas</a></li>
-                                        <li><a href="#">Doctores</a></li>
-                                        <li><a href="#">Hospitales</a></li>
-                                        <li><a href="#">Testimonios</a></li>
-                                        <li><a href="#">Planes</a></li>
-                                        <li><a href="#">Politica de privacidad</a></li>
-                                        <li><a href="#">Términos y condiciones</a></li>
+                                        <li><a href="#download">Descargas</a></li>
+                                        <li><a href="#doctor">Doctores</a></li>
+                                        <li><a href="#hospital">Hospitales</a></li>
+                                        <li><a href="#testimonial">Testimonios</a></li>
+                                        <li><a href="#plan">Planes</a></li>
+                                        <li><a href="#footer">Politica de privacidad</a></li>
+                                        <li><a href="#footer">Términos y condiciones</a></li>
                                    </ul>
                               </div>
                          </div>
